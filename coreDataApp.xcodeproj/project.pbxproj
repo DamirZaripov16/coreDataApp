@@ -15,6 +15,7 @@
 		CEA6389B293241F0000A2963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6389A293241F0000A2963 /* Assets.xcassets */; };
 		CEA6389E293241F0000A2963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6389C293241F0000A2963 /* LaunchScreen.storyboard */; };
 		CEA638A6293242C7000A2963 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CEA638A5293242C7000A2963 /* .gitignore */; };
+		CEA638A929324421000A2963 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA638A729324421000A2963 /* Person+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CEA6389D293241F0000A2963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA6389F293241F0000A2963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA638A5293242C7000A2963 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CEA638A729324421000A2963 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		CEA63882293241EE000A2963 = {
 			isa = PBXGroup;
 			children = (
+				CEA638AB29324438000A2963 /* Model */,
 				CEA638A5293242C7000A2963 /* .gitignore */,
 				CEA6388D293241EE000A2963 /* coreDataApp */,
 				CEA6388C293241EE000A2963 /* Products */,
@@ -71,6 +74,14 @@
 				CEA63897293241EE000A2963 /* coreDataApp.xcdatamodeld */,
 			);
 			path = coreDataApp;
+			sourceTree = "<group>";
+		};
+		CEA638AB29324438000A2963 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEA638A729324421000A2963 /* Person+CoreDataClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			files = (
 				CEA63899293241EE000A2963 /* coreDataApp.xcdatamodeld in Sources */,
 				CEA63893293241EE000A2963 /* ViewController.swift in Sources */,
+				CEA638A929324421000A2963 /* Person+CoreDataClass.swift in Sources */,
 				CEA6388F293241EE000A2963 /* AppDelegate.swift in Sources */,
 				CEA63891293241EE000A2963 /* SceneDelegate.swift in Sources */,
 			);
